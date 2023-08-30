@@ -23,6 +23,22 @@
       "type": "outcome",
       "createdAt": "2023-08-30T17:56:09.091Z",
       "id": 3
+    },
+    {
+      "description": "Desenvolvimento modl",
+      "price": 70,
+      "category": "Dev",
+      "type": "income",
+      "createdAt": "2023-08-30T18:06:07.302Z",
+      "id": 4
+    },
+    {
+      "description": "Lanche",
+      "price": 25,
+      "category": "Comida",
+      "type": "outcome",
+      "createdAt": "2023-08-30T18:33:40.051Z",
+      "id": 5
     }
   ]
 }
