@@ -13,6 +13,7 @@
     "@types/node": "^16.18.46",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "axios": "^1.5.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,6 +26,8 @@
   },
   "scripts": {
     "dev:server": "json-server server.json -p 3333 -w -d 500",
+    "lint": "eslint src --ext .tsx,.ts",
+    "lint:fix": "eslint src --ext .tsx,.ts --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
